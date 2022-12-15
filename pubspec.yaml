@@ -1,0 +1,57 @@
+name: clean_arch_template
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # object comparison (all platforms)
+  equatable: ^2.0.5
+  # dependency injection (all platforms)
+  get_it: ^7.2.0
+  # code generator for get_it (all platforms)
+  injectable: ^1.5.3
+  # path provider (all platforms)
+  path_provider: ^2.0.11
+  #* persistent storage (all platforms)
+  shared_preferences: ^2.0.15
+  #* state manager (all platforms)
+  flutter_bloc: ^8.1.1
+  #* http client (all platforms)
+  http: ^0.13.5
+  # localization (all platforms)
+  easy_localization: ^3.0.1
+
+  #* utils
+  # flutter native splash (iOS, android & WEB)
+  flutter_native_splash: ^2.1.6
+  # check internet connection
+  connectivity_plus: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # launcher icons
+  flutter_launcher_icons: ^0.10.0
+  # code generation core (all platforms)
+  build_runner: ^2.1.11
+  # code generator for injection (all platforms)
+  injectable_generator: ^1.5.3
+  # for code rules
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
