@@ -55,3 +55,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/fonts/
+    - assets/translations/
+
+  fonts:
+    - family: Factor
+      fonts:
+        - asset: assets/fonts/factor_io/factor-io-medium.otf
